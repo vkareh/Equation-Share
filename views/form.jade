@@ -1,0 +1,7 @@
+form(method="post")
+  p
+    label(for="equation[input]") Equation
+      textarea(name="equation[input]", rows="4", cols="64")
+        #{input}
+  p.buttons
+    input(type="submit", value="Submit")

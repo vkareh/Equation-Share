@@ -1,0 +1,10 @@
+{
+  "name": "EquationShare",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.4.7",
+    "jade": ">= 0.0.1",
+    "couchdb": ">= 0.0.1"
+  }
+}

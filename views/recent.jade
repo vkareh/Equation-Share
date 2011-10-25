@@ -1,0 +1,9 @@
+include header
+#recent
+  table
+    each equation in recent
+      td
+        tr
+          a(href="/#{equation._id}")
+            $$#{equation.equation.input}$$
+include footer
